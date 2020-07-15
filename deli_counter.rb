@@ -7,8 +7,9 @@ def line(deli)
    current_line = "The line is currently: "
    deli.each.with_index(1) do |i, name|
      current_line << "#{i}. #{name}"
-  end
+     end
   current_line
+  end
 end
 
 def take_a_number (deli, name)
@@ -20,7 +21,7 @@ def now_serving(deli)
   if deli.empty?
     puts "There is nobody waiting to be served!"
   else
-  puts "Currently serving #{deli.first}"
+  puts "Currently serving #{deli.first}."
   deli.shift
-end
+  end
 end
