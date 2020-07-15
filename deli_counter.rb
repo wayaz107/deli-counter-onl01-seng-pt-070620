@@ -11,9 +11,9 @@ def line(deli)
   current_line
 end
 
-def take_a_number (katz_deli, name)
-  katz_deli = []
-  puts "Hello #{name}!, you are currently in line number #{index + 1}"
+def take_a_number (deli, name)
+  deli << name
+  puts "Welcome, #{name}. You are number #{deli.length} in line."
 end
 
 def now_serving(next_person)
