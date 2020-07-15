@@ -7,10 +7,10 @@ def line(deli)
    current_line = "The line is currently: "
    deli.each.with_index(1) do |i, name|
      current_line << "#{i}. #{name}"
-  end 
+  end
   current_line
 end
- 
+
 def take_a_number (katz_deli, name)
   katz_deli = []
   puts "Hello #{name}!, you are currently in line number #{index + 1}"
@@ -24,8 +24,3 @@ def now_serving(next_person)
   next_person.shift
 end
 end
-
-
-
-
-  
